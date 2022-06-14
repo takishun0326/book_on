@@ -1,0 +1,315 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+* {
+	margin:0; padding:0;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color:#000000;
+}
+a:visited{
+    color:#000000;
+}
+
+
+body{
+    background-color:#ffffff;
+    font-size: 95%;
+    font-family: 'Noto Serif JP', sans-serif;
+    line-height:1.5;
+    color:#333333;
+}
+
+.eng{
+    font-family: 'Times New Roman', Times, serif;
+}
+div#icon{
+    height:60px;
+    width:auto;
+    padding:20px;
+}
+
+header{
+    padding:250px 0px;
+    height: 150%;
+}
+
+header ul{
+    font-size: 140%;
+    color: #000000;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 400;
+}
+header ul li{
+    display: inline;
+    float: left;
+    height: 109px;
+}
+
+
+div#header_line{
+    width: auto;
+    height: auto;
+    padding: 20px 0px;
+    margin: 10px 100px;
+    border-bottom: 3px solid #CCC;
+}
+
+div#header{
+    width: 90%; margin:0 auto;
+}
+
+
+
+div#gnav{
+    background-color: #eee;
+    width: 100%;
+    margin:0;
+    font-size: 20px;
+}
+
+div#gnav_line{
+    width:100%;
+    padding:13px 0px;
+    border-bottom: 1px solid #CCC;
+}
+
+div#menu{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top:20px;
+    display:flex;
+}
+
+#menu ul{
+    margin-left: -25px;
+    float: left;
+    margin-top: 0px;
+    width: 100%;
+}
+
+#menu li{
+    display: inline;
+    float: left;
+    margin-left: 25px;
+    border-right: 1px solid #CCC;
+    padding-right: 27px;
+
+}
+
+#menu li a{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+/*  検索ボックス    */
+
+.search_container{
+    box-sizing: border-box;
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    display: block;
+    padding: 0px 5px;
+    border-radius: 0px;
+    height: 1.8em;
+    width: 600px;
+    overflow: hidden;
+  }
+  .search_container input[type="text"]{
+    border: none;
+    height: 2.0em;
+  }
+  .search_container input[type="text"]:focus {
+    outline: 0;
+  }
+  .search_container input[type="submit"]{
+    cursor: pointer;
+    font-family: FontAwesome;
+    font-size: 1.3em;
+    border: none;
+    background: none;
+    color: #000000;
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    right: 0;
+    top: -14px;
+    outline : none;
+  }
+  
+
+.content{
+    margin: 100px 200px;
+    width:auto;
+    min-height:500px;
+    height:auto;
+    background-color:#ffffff;
+}
+
+.content_title{
+    border-bottom:2px solid #009b9f
+}
+.content_title_name{
+    color:#333;
+    font-size:24px;
+    padding-left: 10px;
+}
+
+.content_ad_area{
+    width:800px;
+    margin:60px auto;
+}
+
+.content_ad_area img{
+    width:100%;
+    height:auto;
+
+}
+
+.content_books{
+    margin: 40px 0px;
+    height: auto;
+    width:100%;
+    
+}
+
+.books_area{
+    padding:20px 30px;
+    width:auto;
+    height:100%;
+    text-align: center;
+}
+
+ul.books{
+    display:flex;
+    width:auto;
+    padding: 0px 70px;
+}
+
+
+.books li{
+    width:140px;
+    height:330px;
+    background-color:#fff;
+    margin:10px 20px;
+}
+
+div.book{
+    width:100%;
+    height:200px;
+    display: flex;
+    text-align: center;
+    align-items:bottom;
+}
+
+div.book img{
+    width:100%;
+    max-width:211px;
+    max-height:320px;
+}
+
+div.book_category{
+    font-size:12px;
+    color:#fff;
+    font-weight:400;
+    border-radius:40px;
+    background-color:#1aad2e;
+    margin:10px 3px;
+    width:70px;
+}
+
+div.book_title{
+    text-align:left;
+    margin-left:3px;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.next_content_title{
+    margin-top:30px;
+    border-bottom:2px solid #009b9f
+}
+
+.category_box{
+    padding:40px 30px;
+    width:auto;
+    height:100%;
+}
+
+.categories{
+    margin:20px 0;
+    height:1000px;
+    width:100%;
+}
+.category_parent_box_shonen{
+    margin-top:80px;
+    margin-bottom:20px;
+    width:100%;
+    border-bottom:2px solid #1aad2e;
+}
+
+.category_parent_box_shojo{
+    margin-top:80px;
+    margin-bottom:20px;
+    width:100%;
+    border-bottom:2px solid #1d92af;
+}
+
+
+.category_parent{
+    color:#333;
+    font-size:20px;
+    padding-left: 10px;
+}
+.category_children{
+    margin:20px 0;
+    width:100%;
+}
+
+.category_children_shonen a{
+    display:inline-block;
+    margin:0 10px 30px 0;
+    width:auto;
+    font-size:13px;
+    padding:2px 10px;
+    color:#fff;
+    background-color:#1aad2e;
+    border-radius: 15px;
+    font-weight:400;
+}
+
+.category_children_shojo a{
+    display:inline-block;
+    margin:0 10px 30px 0;
+    width:auto;
+    font-size:13px;
+    padding:2px 10px;
+    color:#fff;
+    background-color:#1d92af;
+    border-radius: 15px;
+    font-weight:400;
+}
+
+.categories ul{
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+}
+
+.categories li{
+    width:40%;
+    float:left;
+    margin:0 20px;
+}
